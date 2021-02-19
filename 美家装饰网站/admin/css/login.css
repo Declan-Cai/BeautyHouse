@@ -1,0 +1,86 @@
+body {		/*页面整体样式*/
+	margin:0;	/*外边距0px*/
+	padding:0;	/*内边距0px*/
+	overflow:hidden;	/*溢出隐藏*/
+	background:url(../images/login_03.gif) repeat-x;	/*背景图像水平重复*/
+	font-size: 12px;
+	color: #adc9d9;
+}
+#top {		/*顶部容器样式样式*/
+	margin: 0 auto;		/*页面自动居中*/
+	clear:both;		/*清除所有浮动*/
+	height:318px;
+	width:847px;
+	background:url(../images/login_04.gif) no-repeat;	/*背景图像无重复*/
+}
+#center {	/*主体内容容器的样式*/
+	height:84px;
+	text-align:center;	/*文字居中对齐*/
+}
+#center_left {		/*主体内容左侧区域的样式*/
+	margin-left:216px;/*左外边距216px*/
+	float:left;		/*向左浮动*/
+	background:url(../images/login_06.gif) no-repeat;	/*背景图像无重复*/
+	height:84px;
+	width:381px;
+}
+#center_middle {		/*主体内容中间区域的样式*/
+	float:left;		/*向左浮动*/
+	background:url(../images/login_07.gif) no-repeat;	/*背景图像无重复*/
+	height:84px;
+	width:162px;
+}
+.user {		/*用户登录区域的样式*/
+	margin: 6px auto;	/*上下外边距6px，左右居中对齐*/
+}
+form {	/*登录表单的样式*/
+	margin:0;	/*外边距0px*/
+	padding:0;	/*内边距0px*/
+}
+input {		/*输入元素的样式*/
+	width:100px;
+	height:17px;
+	background-color:#87adbf;	/*浅蓝色背景*/
+	border:solid 1px #153966;	/*边框为1px深灰色实线*/
+	font-size:12px;			/*文字大小12px*/
+	color:#283439;			/*深灰色文字*/
+}
+.chknumber {			/*验证码区域的样式*/
+	margin-bottom:3px;			/*下外边距3px*/
+	text-align:left;			/*文字左对齐*/
+	padding-left:3px		/*左内边距3px*/
+}
+.chknumber_input {		/*验证码区域中输入框的样式*/
+	width:40px;		/*输入框宽40px*/
+}
+img {		/*验证码图像的样式*/
+	border:none;	/*不显示边框*/
+	cursor:pointer;	/*鼠标经过图像手形显示*/
+}
+#center_middle_right {		/*主体内容中间与右侧间隔区域的样式*/
+	float:left;	/*向左浮动*/
+	background:url(../images/login_08.gif) no-repeat;/*背景图像无重复*/
+	height:84px;
+	width:26px;
+}
+#center_submit {	/*主体内容提交与重置按钮区域的样式*/
+	float:left;/*向左浮动*/
+	background:url(../images/login_09.gif) no-repeat;/*背景图像无重复*/
+	height:84px;
+	width:67px;
+}
+.button {
+	margin: 15px auto;
+}
+#center_right {	/*主体内容右侧区域的样式*/
+	float:left;/*向左浮动*/
+	background:url(../images/login_10.gif) no-repeat;/*背景图像无重复*/
+	height:84px;
+	width:211px;
+}
+#footer {	/*底部容器的样式*/
+	margin:0 auto;	/*页面自动居中*/
+	background:url(../images/login_11.gif) no-repeat;/*背景图像无重复*/
+	height:206px;
+	width:847px;
+}
